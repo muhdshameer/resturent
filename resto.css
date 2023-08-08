@@ -1,0 +1,454 @@
+*{
+   /*  width: 100%;
+    height: 100vh; */
+    font-family: 'REM', sans-serif;
+margin: 0px;
+padding: 0px;
+
+
+background-color: white;
+}
+
+
+
+.container{
+
+width: 100%;
+    height: 100vh;
+    /* margin-left: 1000px; */
+   
+}
+.navbar{
+   
+    margin: 10px 20px;
+    float: right;
+}
+.navbar a:hover{
+    color: rgb(65, 205, 55);
+}
+
+.line{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+
+.line a{
+    text-decoration: none; 
+
+}
+
+.greek{
+    /* margin-left: -950px ; */
+    width: 100%;
+    
+}
+
+.greek i{
+font-size: 60px;
+margin-left: 20px;
+ 
+margin-top: 10px;
+ }
+
+ .sin h5{
+    font-size: 20px;
+    font-family: 'Handjet', cursive;
+color: red;
+ margin-left: 80px; 
+margin-top: -55px;
+   
+    
+ }
+
+ .greek h2{
+    margin: 50px;
+    margin-top: -50px;
+    margin-left: 80px;
+    
+ }
+.img{
+    
+
+margin-top: 50px;
+
+}
+
+.img img{
+    
+    
+   width: 100%;
+   height:700px;
+    
+}
+
+.title h1{
+    font-size: 50px;
+    color:white;
+    font-family: sans-serif;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+.title h2{
+    margin-left: 150px;
+    font-size: 20px;
+    color: rgb(255, 255, 125);
+    font-family: 'REM', sans-serif;
+}
+
+#button{
+    background-color: rgb(8, 219, 8);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    color: white; 
+    border: 0px;
+    border-radius:5px ;
+
+    
+}
+.but{
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.but #button:hover{
+    color: rgb(241, 22, 22);
+}
+
+.about h2{
+    margin-top: 300px;
+    margin-left: 300px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+
+}
+
+.about p{
+    font-size: 20px;
+    font-weight: 500;
+    height: 5%;
+    width: 50%;
+    margin-left: 100px;
+  text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.about-img{
+    width: 20px;
+   
+    height: 120%;
+    margin-left: 900px;
+    bottom: 0px;
+    margin-top: -750px;
+    
+}
+
+.about-img img{
+    width: 600px;
+
+
+}
+
+.menu{
+    margin-left: 300px;
+  
+    font-size: 30px;
+    
+}
+
+.menu h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   color: red;
+}
+
+.menufood{
+    width: 20px;
+   
+    height: 20%;
+    margin-left: 100px;
+    display:inline-block ;
+    display: flex;
+
+}
+
+.menufood img{
+    width: 600px;
+    margin-top:10%;
+    height: 250px;
+    padding: 40px;
+
+   }
+
+   .text {
+    display:inline-block ;
+    display: flex;
+    color: chocolate;   
+
+
+   } 
+   .text  #text1{
+    padding-right: 20%;
+    margin-left: 170px;
+    margin-top: 160px;
+
+   }
+
+   .text  #text2{
+    padding-right: 1%;
+    margin-right:300px;
+    margin-top: 160px;
+   }
+
+   .text  #text3{
+    /* padding-right:13%; */
+    margin-top: 160px;
+    margin-right: 170px;
+    
+
+   }
+
+   .food2{
+    width: 30px;
+   
+    height: 20%;
+    margin-left: 100px;
+    display:inline-block ;
+    display: flex;
+   }
+
+   .food2 img{
+    width: 650px;
+    margin-top:10%;
+    height: 250px;
+    padding: 50px;
+
+   }
+
+   .txt{
+    display:inline-block ;
+    display: flex;
+    color: chocolate;   
+
+   }
+
+   .txt  #txt1{
+    padding-right: 20%;
+   margin-left:180px;
+   margin-top: 170px;
+   }
+
+   .txt #txt2{
+    padding-right: 15%;
+    margin-top: 170px;
+   }
+
+   .txt #txt3{
+    padding-right: 3%;
+    margin-left: 120px;
+    margin-top: 170px;
+   }
+
+
+   .chefs{
+margin-top: 100px;
+margin-left: 360px;
+   }
+
+ .chefs h2  {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+ }
+
+
+.cphoto{
+    width: 80px;
+   margin-top: 70px;
+    height: 60%;
+    margin-left: 100px;
+    display:inline-block ;
+    display: flex;
+}
+
+.cphoto img{
+    padding: 30px;
+}
+
+.cphoto #c{
+    margin-left: 120px;
+}
+
+.photot{
+    display:inline-block ;
+    display: flex;
+    color: rgb(46, 110, 49);   
+
+}
+
+.photot #pt1{
+    padding-right: 30%;
+    margin-left: 200px;
+    margin-bottom: 40%;
+    font-size: 20PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photot #pt2{
+    
+    margin-left: 10px;
+    /* margin-bottom: 40%; */
+    font-size: 20PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dphoto{
+    width: 100px;
+    margin-top: -550px;
+     height: 50%;
+     margin-left: 100px;
+     display:inline-block ;
+     display: flex;
+}  
+
+.dphoto #ph1{
+    
+    padding-right:20%;
+   margin-left: 30px;
+   width: 700%;
+}
+
+.dphoto #ph2{
+   padding-left: 20%;
+   margin-left: 150px;
+   width: 560%;
+}
+
+.pc{
+
+
+display:inline-block ;
+display: flex;
+color: rgb(46, 110, 49);  
+
+}
+
+.pc #pt1{
+    padding-right: 30%;
+    margin-left: 200px;
+   margin-top: 2%;
+    font-size: 20PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pc #pt2{
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact {
+    margin-top: 100px;
+margin-left: 360px;
+
+}
+
+.contact h2{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red; 
+    font-size: 40px;
+}
+
+.phone{
+    background-color: rgb(251, 81, 239);
+    width: 100%;
+    height: 20%;
+    margin-top: 50px;
+}
+
+.phone1{
+    border-radius: 300px;
+    background-color: rgb(41, 250, 208);
+    width: 40%;
+    height: 11%;
+    margin-left: 390px;
+    margin-top: -100px;
+}
+
+
+.phone2{
+   margin-top:-40px; 
+   background-color:rgb(251, 81, 239) ;
+    margin-left: 350px;
+   width: 1.5px;
+  
+}
+
+.phone2 h2{
+ 
+  
+  margin-left: 140px;
+  height: 50px;
+  
+    
+} 
+
+.ordernow{
+    display:inline-block ;
+display: flex;
+}
+
+.ordernow h2{
+    margin-left: 630px;
+    margin-top: -80px;
+    font-size: 25px;
+    height: 7px;
+    background-color: rgb(41, 250, 208);
+    color: rgb(239, 3, 3);
+}
+
+.icon{
+    background-color:rgb(41, 250, 208) ;
+    font-size: 25px;
+    margin-left: 600px;
+   margin-top: -5.5%;
+    width: 3px;
+}
+
+.icon i{
+    background-color:rgb(41, 250, 208);
+    
+}
+
+.icon1{
+   
+    font-size: 40px;
+    margin-top: 100px;
+    /* align-content: center;
+    align-items: center; */
+    justify-content: center; 
+    display: flex; 
+    padding: 10px;
+}
+
+.icon1 i{
+    padding: 10px;
+}
+
+.icon1 i:hover{
+    color: rgb(23, 237, 65);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
